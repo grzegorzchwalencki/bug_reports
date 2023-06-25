@@ -1,0 +1,38 @@
+Zgłoszenie Błędu
+
+1. ID: Tytuł      SKALNIK_01
+
+2. Środowisko
+  I. Środowisko testowe nr 1:
+      - Microsoft Windows 11 Home wersja 10.0.22621 Kompilacja 22621
+      - Firefox Wersja: 114.0.2 (64 bity).
+  II. Środowisko testowe nr 2:
+      - Microsoft Windows 10 Home wersja 10.0.19045 Kompilacja 19045
+      - Firefox Wersja: 114.0.2 (64 bity).
+  III. Środowisko testowe nr 3:
+      - Ubuntu 20.04.5 LTS
+      - Firefox Wersja: 114.0.2 (64 bity).
+  IV. Środowisko testowe nr 4:
+      - Ubuntu 20.04.5 LTS
+      - Chrome Version 96.0.4664.45 (Official Build) (64-bit)
+
+3. Dane wejściowe
+Użytkownik znajduje się na stronie głównej sklepu internetowego skalnik.pl.
+
+4. Kroki do reprodukcji
+    1. Wchodzimy poprzez przeglądarkę na stronę https://www.skalnik.pl/.
+    2. W oknie wyszukiwania z napisem „Szukaj w sklepie” wpisujemy nazwę przedmiotu jaki chcemy wyszukać np. „Rękawice”. 
+       Zatwierdzamy klawiszem ENTER lub klikając ikonę Lupy.
+    3. Po wyświetleniu strony z wynikami w rozwijanej wstążce „CENA PROMOCYJNA” zmieniamy zakres cen na inny niż pierwotny. 
+       Klikamy przycisk „Filtruj”.
+
+5. Rezultat uzyskany
+Strona przestaje działać, na ekranie pojawia się kod źródłowy strony.
+
+6. Rezultat oczekiwany
+Na ekranie pojawia się strona z wynikami – produktami pasującymi do wyszukanej frazy oraz ich cena mieści się w ustawionym zakresie.
+
+7. Załącznik
+Wideo –"SKALNIK_01.mkv" plik załączony osobno, przedstawiający kroki reprodukcji.
+
+
